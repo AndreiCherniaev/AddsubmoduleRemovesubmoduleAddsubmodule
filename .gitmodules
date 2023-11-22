@@ -1,4 +1,0 @@
-[submodule "myBuildroot/buildroot"]
-	path = myBuildroot/buildroot
-	url = https://github.com/buildroot/buildroot
-	branch = master
