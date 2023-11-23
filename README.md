@@ -12,6 +12,7 @@ git submodule update --remote --merge
 ```
 
 # 1) Add Buildroot as submodule
+This step is already done in current repo. So you shouldn't do it.
 ```
 $ git submodule add -b master https://github.com/buildroot/buildroot myBuildroot/buildroot
 ```
