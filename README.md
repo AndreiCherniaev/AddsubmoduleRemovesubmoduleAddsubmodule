@@ -4,7 +4,7 @@ Simple way
 git clone --remote-submodules --recurse-submodules -j8 https://github.com/AndreiCherniaev/AddsubmoduleRemovesubmoduleAddsubmodule.git
 cd AddsubmoduleRemovesubmoduleAddsubmodule/
 ```
-Or several-steps way
+Or in several steps
 ```
 git clone  https://github.com/AndreiCherniaev/AddsubmoduleRemovesubmoduleAddsubmodule.git
 cd AddsubmoduleRemovesubmoduleAddsubmodule/
@@ -31,9 +31,9 @@ If you want to reuse this local git directory instead of cloning again from
 use the '--force' option. If the local git directory is not the correct repo
 or you are unsure what this means choose another name with the '--name' option.
 ```
-Becase I already have folder 'myBuildroot/buildroot' in my computer. You can remove folder
+Because I already have folder 'myBuildroot/buildroot' in my computer, you can remove the folder
 ```
 rm -rf .git/modules/myBuildroot/buildroot
 git config --remove-section submodule.myBuildroot/buildroot
 ```
-And go to step 1). Another way to do step 3) is remove repo from your computer and clone again fror github, then you can do step 1). Tested with git version 2.34.1
+And go to step 1). Another way to do step 3) is to remove the repo from your computer and clone again from Github, then you can do step 1). Tested with git version 2.34.1
