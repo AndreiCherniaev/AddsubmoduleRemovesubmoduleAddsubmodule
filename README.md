@@ -6,7 +6,7 @@ cd AddsubmoduleRemovesubmoduleAddsubmodule/
 ```
 Or in several steps
 ```
-git clone  https://github.com/AndreiCherniaev/AddsubmoduleRemovesubmoduleAddsubmodule.git
+git clone https://github.com/AndreiCherniaev/AddsubmoduleRemovesubmoduleAddsubmodule.git
 cd AddsubmoduleRemovesubmoduleAddsubmodule/
 git submodule update --remote --merge
 ```
