@@ -22,6 +22,7 @@ $ git push
 # 2) Remove submodule Buildroot
 ```
 $ git rm -f myBuildroot/buildroot
+$ git commit -m "delete submodule"
 ```
 # 3) Add Buildroot as submodule again
 ```
