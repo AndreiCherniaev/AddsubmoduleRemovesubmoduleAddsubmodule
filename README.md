@@ -14,7 +14,7 @@ git submodule update --remote --merge
 # 1) Add Buildroot as submodule
 This step is already done in current repo. So you shouldn't do it.
 ```
-$ git submodule add -b main https://github.com/buildroot/buildroot myBuildroot/buildroot
+$ git submodule add -b master https://github.com/buildroot/buildroot myBuildroot/buildroot
 $ git commit -m "add submodule"
 $ git push
 ```
@@ -25,7 +25,7 @@ $ git rm -f myBuildroot/buildroot
 ```
 # 3) Add Buildroot as submodule again
 ```
-$ git submodule add -b main https://github.com/buildroot/buildroot myBuildroot/buildroot
+$ git submodule add -b master https://github.com/buildroot/buildroot myBuildroot/buildroot
 fatal: A git directory for 'myBuildroot/buildroot' is found locally with remote(s):
   origin	https://github.com/buildroot/buildroot
 If you want to reuse this local git directory instead of cloning again from
